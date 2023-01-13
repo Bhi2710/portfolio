@@ -167,7 +167,7 @@ const Skills = () => {
           </div>
           <div data-aos="fade-left" className="image_box_1">
             <img src={port} alt="movie"/>
-            <a href="/" target="_blank" rel="noreferrer">
+            <a href="https://abhi2710.netlify.app/" target="_blank" rel="noreferrer">
               <div className="image_box_container">
                 <div className="image_container">
                   <h2>portfolio</h2>
