@@ -1,0 +1,53 @@
+.navbar{
+  width: 100%;
+  
+}
+
+.navbar_container{
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  align-items: center;
+  
+}
+
+.left_side{
+  float: left;
+  margin-left: 2rem;
+
+}
+
+.left_side > span{
+  color: #f0f0f0;
+  font-size: large;
+  font-weight: bold;
+  font-family: cursive;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+.right_side{
+  float: right;
+  align-items: center;
+  margin-right: 2rem;
+
+}
+
+.right_side > span:nth-child(1){
+  color: #f0f0f0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  
+}
+
+.right_side > span:nth-child(2){
+  color: #f0f0f0;
+  margin-left: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+
+}

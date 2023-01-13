@@ -1,0 +1,905 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.About_background_container{
+  background-color: #212121;
+  width: 100%;
+}
+
+.About_item{
+  display: flex;
+  justify-content: center;
+}
+
+.About_item_img{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.About_item_img > img{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.About_item_span{
+  margin-top: 1rem;
+}
+
+.About_item_span > span{
+  font-size: 45px;
+  color: #F1F1F1;
+  font-weight: 530;
+  letter-spacing: 8px;
+}
+
+
+.Who_am_I{
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin: 3rem;
+  flex-wrap: wrap;
+}
+
+.About_item_left_section{
+  float: left;
+  width: 45%;
+  margin-top: 3rem;
+  /* border: 2px solid yellowgreen; */
+}
+
+.About_item_left_section > h1{
+  font-size: xx-large;
+  font-weight: 600;
+  color: #F1F1F1;
+  margin-bottom: 12px;
+}
+
+.About_item_left_section > p{
+  margin-top: 6px;
+  font-size: large;
+  color: #DDD5D5;
+}
+
+.Hired_container{
+  margin-top: 3rem;
+}
+
+.Hired_container > img{
+  width: 30px;
+  height: 30px;
+}
+
+.Hired_container > span{
+  color: #F1F1F1;
+  font-size: xx-large;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.Hired_container > p {
+  color: #DDD5D5;
+  font-size: large;
+}
+
+.About_item_right_section{
+  float: right;
+}
+
+.About_item_right_section > img{
+  width: 300px;
+  height: 450px;
+  border: 1px solid #F1F1F1;
+}
+
+/* .......Hobbies...... */
+
+.hobbie_container{
+  margin: 4rem;
+  /* border: 2px solid blueviolet; */
+  margin-left: 10rem;
+}
+
+.hobbie_container_headding > img{
+  width: 40px;
+  height: 30px;
+}
+
+.hobbie_container_headding > span{
+ color: #F1F1F1;
+ font-size: xx-large;
+ font-weight: 600;
+ margin-left: 10px;
+}
+
+.hobbie_container_summary{
+  color: #DDD5D5;
+  font-size: large;  
+  width: 100%;
+}
+
+.hobbie_container_summary > p{
+  margin-top: 20px;
+}
+
+.hobbie_container_summary > p:nth-child(1){
+  color: #E39183;
+}
+
+.hobbie_container_summary > p:nth-child(2){
+  color: #E7E791;
+}
+
+.hobbie_container_summary > p:nth-child(3){
+  color: #8DE58D;
+}
+
+.About_item_contact{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact_me{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.contact_me > span{
+  color: #F1F1F1;
+  font-size: 45px;
+  font-weight: 530;
+}
+
+.contact_me_summary{
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 4px;
+}
+
+.contact_me_summary > span{
+  color: #DDD5D5;
+}
+
+
+.About_form_container{
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.About_form{
+  /* border: 2px solid lime; */
+  width: 60%;
+}
+
+.About_form_name > label{
+  color: #F1F1F1;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.About_form_name_input > input{
+  width: 100%;
+  height: 2.5rem;
+  font-size: 20px;
+  padding-left: 4px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.About_form_email > label{
+  color: #F1F1F1;
+  font-size: 30px;
+  font-family: cursive;
+  display: block;
+  margin-top: 1rem;  
+}
+
+.About_form_email_input > input{
+  width: 100%;
+  height: 2.5rem;
+  font-size: 20px;
+  padding-left: 4px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.About_form_message  > label{
+  color: #F1F1F1;
+  font-size: 30px;
+  font-family: cursive;
+  display: block;
+  margin-top: 1rem;  
+}
+
+.About_form_message_input > textarea{
+  width: 100%;
+  height: 15rem;
+  font-size: 20px;
+  padding-left: 4px;
+  padding-top: 4px;
+  border: none;
+  outline: none;
+  border-radius: 10px;  
+}
+
+.About_form_submit{
+  display: flex;
+  justify-content: center;
+}
+
+.About_form_submit > input{
+  width: 50%;
+  margin-top: 2rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer; 
+}
+
+.About_form_submit > input:hover{
+  color: #F1F1F1;
+  background-color: #45B7BB;  
+}
+
+.About_Findme_on{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.About_Findme_on_heading > span{
+  color: #F1F1F1;
+  font-size: 35px;
+}
+
+.About_Findme_icon{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+  justify-content: space-between;
+
+}
+
+.About_Findme_icon > a > img{
+  width: 40px;
+  height: 40px;
+  filter: invert(0);
+}
+
+.About_Findme_icon > a > img:hover{
+  cursor: pointer;
+  filter: invert(50%);
+
+}
+
+.About_Location{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  
+}
+.About_Location > span{
+  color: #F1F1F1;
+  margin-left: 10px;
+}
+
+.About_Location_made{
+  display: flex;
+  justify-content: center;
+}
+
+.About_Location_made > p{
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  color: #F1F1F1;
+}
+
+/* ...........Skills........ */
+
+.Parent_main_skills_container{
+  background-color: #212121;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.main_skills_container{
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+}
+
+.skills_container{
+  margin-top: 3rem;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.skills_container > img{
+  margin-right: 15px;
+}
+
+.skills_container > span{
+  color: #F1F1F1;
+  font-size: 45px;
+  align-items: center;
+}
+
+.main_skills_bar{
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+
+.skills_bar{
+  width: 60%;
+}
+
+.skills_bar .bar{
+  margin: 45px 0px;
+}
+
+.skills_bar .bar:first-child{
+  margin-top: 4rem;
+}
+
+.skills_bar .bar .info span{
+  color: #F1F1F1;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.skills_bar .bar .progress_line{
+  position: relative;
+  height: 15px;
+  width: 100%;
+  background-color: #747373;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+.bar .progress_line span{
+  height: 100%;
+  width: 80%;
+  background-color: #BCC7BC;
+  border-radius: 10px;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress_line.html span{
+  width: 85%;
+} 
+
+.progress_line.css span{
+  width: 60%;
+} 
+
+.progress_line.js span{
+  width: 50%;
+}
+
+.progress_line.java span{
+  width: 55%;
+}
+
+.progress_line.react span{
+  width: 80%;
+}
+
+.progress_line.mysql span{
+  width: 60%;
+} 
+
+.progress_line.material span{
+  width: 50%;
+}
+
+.progress_line.redux span{
+  width: 50%;
+} 
+
+.progress_line.github span{
+  width: 60%;
+} 
+
+/* .......My_Project......... */
+
+.myproject{
+  display: flex;
+  justify-content: center;
+}
+
+.myproject_detail{
+  margin-top: 1rem;
+  width: 60%;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.myproject_detail > span{
+  color: #F1F1F1;
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.myproject_details_img{
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.myproject_detail_image{
+  margin: 2rem 0px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image_box_1{
+  border: 2px solid #ffffff;
+  overflow: hidden;
+  width: 430px;
+  position: relative;
+
+}
+
+.image_box_1 > img{
+  float: left;
+  width: 100%;
+  height: 220px;
+  display: block;
+  cursor: pointer;
+}
+
+.image_box_1 .image_box_container{
+  color: #ffffff;
+  background: #000000;
+  opacity: 0.8;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.image_container > p{
+  margin-top: 20px;  
+}
+
+.image_container > h5{
+  margin-top: 40px;  
+}
+
+.image_box_1:hover .image_box_container{
+  top: 0;
+  cursor: pointer;
+}
+
+/* ........Home..... */
+
+.Home_header{
+  background-color: #212121;
+}
+
+
+.Home{
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 500vh;  
+}
+
+.Home_container{
+  background-color: #212121;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -90px;
+  box-shadow: rgba(24, 25, 27, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  
+}
+
+.center_home_container{
+  margin-top: 4rem;
+  width: 100%;  
+}
+
+.center_home_container_myphoto{
+  display: flex;
+  justify-content: center;
+}
+
+.center_home_container_myphoto > img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  outline: 2px solid #E39183;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.center_home_container_icon{
+  margin: 1.5rem 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.main_center_home_container_icon{
+  display: flex;
+  justify-content: center;
+}
+
+.center_home_container_icon a > img{
+  width: 35px;
+  width: 35px;
+  filter: invert(50%);
+}
+
+.center_home_container_icon a > img:hover{
+  cursor: pointer;
+  filter: invert(0%);
+}
+
+.home_container_about{
+  margin-top: 2rem;
+}
+
+.home_container_about_aboutme > h1{
+  color: #F1F1F1;
+  margin: 10px 0px; 
+}
+
+.home_container_about_aboutme > span{
+  color: #DDD5D5;
+  font-size: 22px;
+}
+
+.home_container_about_aboutme > p{
+  color: #DDD5D5;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+.home_container_about_aboutme > p >span{
+  font-weight: bold;
+  font-family: cursive;
+  color: #E39183;
+}
+
+.home_container_hire{
+  margin-top: 3rem;
+}
+
+.home_container_hire >p{
+  color: #DDD5D5;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+.home_container_about_hireme{
+  align-items: center;
+  display: flex;
+}
+
+.home_container_about_hireme >img{
+  width: 30px;
+  height: 30px;
+}
+
+.home_container_about_hireme >span{
+  color: #F1F1F1;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-left: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Personal_Details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Personal_Details > span{
+  color: #DDD5D5;
+  font-size: 20px;
+  margin: 10px 5px;
+}
+
+.Horizontal_line{
+  width: 100%;
+  height: 2px;
+  background-color: #DDD5D5;
+}
+
+.home_container_about_education{
+  align-items: center;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home_container_about_education > img{
+  width: 30px;
+  height: 30px;
+}
+
+.home_container_about_education > span{
+  color: #F1F1F1;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-left: 15px;
+}
+
+.eduaction{
+  margin: 1rem 0rem;
+}
+
+.eduaction > span{
+  color: #F1F1F1;
+  font-size: 26px;
+  font-weight: 540;
+}
+
+.eduaction > p{
+  margin-top: 4px;
+  color: #DDD5D5;
+  font-size: 20px;
+  font-weight: 540;
+}
+
+.My_Resume{
+  margin-top: 4rem;
+}
+
+.My_Resume > h1{
+  text-align: center;
+  color: #F1F1F1;
+}
+
+.parent_My_Resume_download{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.My_Resume_download{
+  border: 2px solid  white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 8px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.My_Resume_download:hover{
+  background-color: transparent;  
+}
+
+.My_Resume_download a {
+  text-align: center;
+  color: #F1F1F1;
+  text-decoration: none;
+  font-size: 22px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.My_Resume_download a > img{
+  width: 30px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.home_footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_footer > span{
+  font-size: 20px;
+  color: #F1F1F1;
+  cursor: pointer;
+}
+
+/* ................... */
+
+.Homeskills_container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Homeskills_container > span{
+  color: #F1F1F1;
+  font-size: 45px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.home_skills_bar{
+  width: 100%
+}
+
+.home_skills_bar .bar{
+  margin: 45px 0px;
+}
+
+.home_skills_bar .bar:first-child{
+  margin-top: 4rem;
+}
+
+.home_skills_bar .bar .info span{
+  color: #F1F1F1;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.home_skills_bar .bar .progress_line{
+  position: relative;
+  height: 15px;
+  width: 100%;
+  background-color: #747373;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+.home_myproject_details_img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home_myproject_detail_image{
+  display: flex;
+  margin: 2rem 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home_myproject_detail_image > div {
+  margin: 0px 1rem;
+}
+
+.bottom_footer{
+  text-align: center;
+  background-color: #212121;
+  color: #ffffff;
+}
+.bottom_footer > h3{
+  margin-top: 3rem;
+}
+.bottom_footer > p{
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+   
+  .image_box_1{
+    margin-top: 2rem;
+  }
+
+  .myproject_detail_image{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .myproject_detail{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .skills_container{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .skills_bar{
+    width: 100%;
+  }
+
+  .Home{
+    height: 520vh; 
+  }
+
+  .Home_container{
+    width: 80%;
+  }
+
+  .About_item_left_section{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .About_item_right_section > img{
+    display: block; 
+    width: 100%;
+    height: 100%;
+  }
+
+  .hobbie_container{
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  .main_skills_bar{
+    margin: 0px 1rem;
+  }
+  .myproject_detail > span{
+    text-align: center;
+  }
+  .myproject_detail_image{
+    margin: 0px 1rem;  
+  }
+
+  .home_myproject_detail_image > div {
+    margin: 1rem 0px;
+    width: 100%;
+  }
+
+  .home_myproject_detail_image{
+    margin: 0rem 1rem;
+    
+  }
+
+}
+
