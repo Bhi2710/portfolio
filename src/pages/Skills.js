@@ -115,7 +115,7 @@ const Skills = () => {
               <div className="image_box_container">
                 <div className="image_container">
                   <h2>W3School</h2>
-                  <p>A simple w3 school clone with authentication, post resposive functionality.</p>
+                  <p>A simple w3 school clone with resposive functionality.</p>
                   <h5>Technology use: HTML, CSS</h5>
                 </div>
               </div>
@@ -131,7 +131,7 @@ const Skills = () => {
               <div className="image_box_container">
                 <div className="image_container">
                   <h2>Github User</h2>
-                  <p>Search your github user name to see your number of repos follower following. </p>
+                  <p>Search your github user name to see your number of repos and see the follower following list.</p>
                   <h5>Technology use: REACT, API, CSS </h5>
                 </div>
               </div>
@@ -167,7 +167,7 @@ const Skills = () => {
           </div>
           <div data-aos="fade-left" className="image_box_1">
             <img src={port} alt="movie"/>
-            <a href="https://abhi2710.netlify.app/" target="_blank" rel="noreferrer">
+            <a href="/" target="_blank" rel="noreferrer">
               <div className="image_box_container">
                 <div className="image_container">
                   <h2>portfolio</h2>
